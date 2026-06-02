@@ -2,17 +2,17 @@
 
 export const siteConfig = {
   // 1. 网站标题与博主信息
-  title: "XingHuiSama の 宝藏之地",
+  title: "骰子，代码，与龙语 の藏书室",
   faviconUrl: "https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
-  authorName: "XingHuiSama",
-  bio: "在代码、学术与分子动力学模拟间穿梭的普通人。近期正埋头于 GROMACS 模拟研究与神经网络计算。",
+  authorName: "alexchen",
+  bio: "「跑团主持 / AI协作者 / 提瓦特与泰拉大陆的编外史官。正在把脑内的巫王、数学和Godot项目，一行一行地敲进现实。深国交备考中，但骰子已经掷下。」",
 
-  navTitle: "XingHuiSama",
+  navTitle: "骰子，代码，与龙语",
 
   // 👇 【新增】导航栏中间的那个后缀/分隔符（默认是 の）
   navSuffix: "の",
 
-  navAfter: "宝藏之地",
+  navAfter: "藏书室",
 
   // 2. 头像设置 (支持网络链接，或将图片放入 public 文件夹后使用 "/me.jpg")
   avatarUrl: "https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
@@ -22,7 +22,7 @@ export const siteConfig = {
   useGradient: false,
   themeColors: ["#a18cd1", "#fbc2eb", "#a1c4fd", "#c2e9fb"], // 呼吸流动的颜色组合
 // 修改这里：变成图片数组
-  bgImages: ["https://bu.dusays.com/2026/03/24/69c1e38b4c370.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4acdb5.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4d9486.jpg"],
+  bgImages: ["https://bu.dusays.com/2026/03/24/69c1e38b4c370.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4acdb5.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4d9486.jpg", "https://upload-bbs.miyoushe.com/upload/2026/01/09/280234141/5b546b0aa7a8122846513ac672769462_984053910245802714.jpg?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg", "https://upload-bbs.miyoushe.com/upload/2026/01/20/188443236/2f1f49853e87393918e6c3745fc829e6_4133794818982790289.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png", "https://upload-bbs.miyoushe.com/upload/2024/07/02/289123318/ab28d6a3831c6939bf8f6797d318a171_4221078665371642627.jpg?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg"],
 
   // 4. 文章默认封面图 (当 Markdown 没写 cover 时显示)
   defaultPostCover: "https://bu.dusays.com/2026/03/24/69c1e38b346cb.jpg",
@@ -34,9 +34,9 @@ export const siteConfig = {
     github: "",
     gitee: "",
     google: "",
-    email: "",
-    qq: "1124533793",
-    wechat: "XingHuisama",
+    email: "3905530979@qq.com",
+    qq: "",
+    wechat: "15815588395",
   },
   counts: {
     photos: 128, // 照片墙数量可以手动写死或动态计算
@@ -54,10 +54,10 @@ export const siteConfig = {
     owner: "",
     admin: [""],
   },
-  buildDate: "2026-03-23T00:00:00", // 建站日期
+  buildDate: ":00", // 建站日期
   footerBadges: [{"name": "Next.js 15", "color": "text-sky-500", "svg": "<path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/>"}, {"name": "React 19", "color": "text-cyan-400", "svg": "<path d=\"M12 22.6l-9.8-5.6V5.6L12 0l9.8 5.6v11.4l-9.8 5.6zm-8.2-6.5l8.2 4.7 8.2-4.7V7.5L12 2.8 3.8 7.5v8.6z\"/>"}, {"name": "Tailwind 4", "color": "text-teal-400", "svg": "<path d=\"M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624C13.666,10.618,15.027,12,18.001,12 c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624c1.177,1.194,2.538,2.576,5.512,2.576 c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624C10.337,13.382,8.976,12,6.001,12z\"/>"}],
   icpConfig: {
-    name: "萌ICP备 20260240号",
+    name: "提瓦特ICP备 20260240号",
     link: "https://icp.gov.moe/?keyword=20260240",
   },
   geminiConfig: {
